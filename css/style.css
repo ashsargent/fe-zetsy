@@ -32,10 +32,11 @@ margin: 0 auto;
 
 }
 
-.bord2{
+/*.bord2{
 	border: 5px solid #CACDCC;
+transition: all 0.5s ease #707E7A;
 
-}
+}*/
 
 .headcol {
  
@@ -47,3 +48,15 @@ color: #6E7D7D;
 #heading{
 	font-family: titlefont; 
 }
+
+.bord2 {
+	border: 5px solid #707E7A;
+
+  }
+  
+
+  .bord2:hover {
+	transition-duration: 1s;
+	transition: ease-in-out;
+	border: 5px solid #66706C;
+	
